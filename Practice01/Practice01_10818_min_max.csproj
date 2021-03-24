@@ -7,8 +7,8 @@
     <ProjectGuid>{C42E958A-4633-4F5C-AC7D-4D90A3D5FC7D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Practice01</RootNamespace>
-    <AssemblyName>Practice01</AssemblyName>
+    <RootNamespace>Practice_10818</RootNamespace>
+    <AssemblyName>Practice_10818</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
