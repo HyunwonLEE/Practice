@@ -26,28 +26,19 @@ namespace Practice_7568
 
             for (int i = 0; i < int_N; i++)
             {
+                result[i]++;
                 for (int z = 0; z < int_N; z++)
                 {
 
-                    if ((array_int[i, 0] > array_int[z, 0]) && array_int[i, 1] > array_int[z, 1])
-                    {
-                        result_cnt[i]++;
-                    }
-
-                }
-
-            }
-            for (int i = 0; i < int_N; i++)
-            {
-                result[i]++;
-                for (int j = 0; j < int_N; j++)
-                {
-                    if (result_cnt[i] < result_cnt[j])
+                    if ((array_int[i, 0] < array_int[z, 0]) && array_int[i, 1] < array_int[z, 1])
                     {
                         result[i]++;
                     }
+
                 }
+
             }
+
             for (int i = 0; i < int_N; i++)
             {
                 Console.Write(result[i]);
