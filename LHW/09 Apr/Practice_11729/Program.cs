@@ -15,11 +15,13 @@ namespace Practice_11729
             if (int_N <= 1)
             {
                 sb.Append("\n" + from + " " + to);
+                //Console.WriteLine(from + " " + to);
                 return;
             }
 
             Hanoi(int_N - 1, from, x, to);
             sb.Append("\n" + from + " " + to);
+            //Console.WriteLine(from + " " + to);
             Hanoi(int_N - 1, x, to, from);
 
         }
@@ -28,7 +30,7 @@ namespace Practice_11729
         {
             int int_N = Convert.ToInt32(Console.ReadLine());
             Hanoi(int_N, 1, 3, 2);
-            Console.Write(Math.Pow(2, 3) - 1);
+            Console.Write(Math.Pow(2, int_N) - 1);
             Console.WriteLine(sb);
         }
     }
